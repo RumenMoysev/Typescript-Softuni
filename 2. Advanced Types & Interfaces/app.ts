@@ -96,7 +96,7 @@ console.log('-----------------------------------------');
 
 function lowestPricesInCities(x: string[]): string {
     const obj: object = {}
-    let str = ''
+    let str: string = ''
 
     for(const el of x) {
         const [city, name, price]: string[] = el.split(' | ')
